@@ -75,6 +75,9 @@
 				<extensions>true</extensions>
 				<configuration>
 					<testFramework>JUNIT5</testFramework>
+					<baseClassForTests>
+						com.example.customerservice.ContractBaseClassTest
+					</baseClassForTests>
 				</configuration>
 			</plugin>
 			<plugin>
